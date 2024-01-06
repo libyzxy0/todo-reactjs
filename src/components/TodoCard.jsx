@@ -13,7 +13,7 @@ export default function TodoCard(props) {
       }`}
     >
     <div className="bg-orange-400 w-[24rem] min-h-12 rounded mt-4 flex flex-row items-center overflow-auto justify-between">
-      <h1 className={`text-white font-bold text-[18px] mx-3 ${ props.isCompleted ? 'line-through text-green-400' : ''}`}>{ props.text }</h1>
+      <h1 className={`text-white font-bold text-[18px] mx-3 ${ props.isCompleted ? 'line-through text-emerald-400' : ''}`}>{ props.text }</h1>
       <div className="flex items-center w-14 mr-5">
         <button onClick={() => props.delete(props.id) }>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#ffffff" className="w-5 h-t">
